@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+  background-color: #202529;
+}
+
+.title1,
+.title2 {
+  text-align: center;
+}
+.title1 {
+  font-size: 30px;
+}
+.title2 {
+  font-size: 42px;
+}
+
+.btn-start {
+  background-color: orange;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  height: 34px;
+  transition: all 0.2s ease-in-out;
+}
+.btn-start:hover {
+  background-color: rgb(253, 177, 56);
+}
+
+.div-submit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.div-roles {
+  display: flex;
+  gap: 12px;
+  width: 350px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.div-roles > span {
+  background-color: grey;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.div-roles > span:hover {
+  background-color: #202529;
+  cursor: pointer;
+}
